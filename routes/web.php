@@ -25,5 +25,11 @@ Route::get('/', function () {
 
 });
 
+Route::get('/about', function () {
+
+    return view('about');
+
+})->name('about');
+
 Route::get('/cars','CarsController@index')->name('cars-list');
 Route::get('/cars/{id}','CarsController@show')->name('singe-item');

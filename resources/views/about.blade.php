@@ -79,19 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to the Car show
-                </div>
-                <div class="links">
-                    <a href="#">Welcome {{ $name }}. My name is John and I am {{ $age }} years old.</a>
+                   About page coming soon....
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">{{$name}} and age {{$age}}</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">My name is {{$name}} . I am {{$age}} years old.</a>
-                    <a href="{{ route('about') }}">About</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
             </div>
         </div>
     </body>
