@@ -88,6 +88,7 @@
                 <div class="links">
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="{{ route('about') }}">About</a>
+                    <a href="{{ route('cars-list') }}">Cars</a>
                 </div>
             </div>
         </div>
