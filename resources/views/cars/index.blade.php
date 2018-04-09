@@ -1,5 +1,5 @@
 @foreach($cars as $car)
 
-    {{ $car->title }}
+    <a href="{{ route('single-item',[ 'id' => $car->id]) }}">{{ $car->title }}</a>
 
-    @endforeach
+@endforeach

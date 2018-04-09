@@ -32,4 +32,4 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/cars','CarsController@index')->name('cars-list');
-Route::get('/cars/{id}','CarsController@show')->name('singe-item');
+Route::get('/cars/{id}','CarsController@show')->name('single-item');

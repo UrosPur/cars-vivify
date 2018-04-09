@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: uros
- * Date: 9.4.18.
- * Time: 08.12
- */
+
+{{ $car->title }} <br>
+{{ $car->producer }} <br>
+{{ $car->number_of_doors }} <br>
+
+
