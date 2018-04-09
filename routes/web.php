@@ -23,7 +23,7 @@ Route::get('/', function () {
     return view('welcome', compact('name','age'));
 
 
-});
+})->name('welcome');
 
 Route::get('/about', function () {
 

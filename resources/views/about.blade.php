@@ -81,6 +81,8 @@
                 <div class="title m-b-md">
                    About page coming soon....
                 </div>
+                
+                <p><a href="{{ route('welcome') }}">Go back</a></p>
 
             </div>
         </div>
