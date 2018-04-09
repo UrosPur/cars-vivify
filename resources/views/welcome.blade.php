@@ -81,7 +81,7 @@
                 <div class="title m-b-md">
                     Welcome to the Car show
                 </div>
-                <div class="links">
+                <div  class="links">
                     <a href="#">Welcome {{ $name }}. My name is John and I am {{ $age }} years old.</a>
                 </div>
 
